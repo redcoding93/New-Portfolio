@@ -1,0 +1,150 @@
+* {
+  /*border: 1px solid red;*/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.myportfolio {
+  background-color: #0080ff;
+}
+ .nav-bar {
+  background-color: black;
+  /*position: absolute;*/
+  margin-top: 0px;
+  width: 100%;
+}
+.nav-bar a {
+  color: white;
+}
+#header ul {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+}
+#header li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my-logo {
+  height: 60px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.project-title {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+.portfolio-title {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  margin-top: 120px;
+  padding-right: 70px;
+}
+.project {
+  width: 22%;
+  float: left;
+  padding-right: 20px;
+  padding-left: 50px;
+  margin-right: 40px;
+  padding-top: 10px;
+
+}
+.past-portfolios {
+  clear: both
+  overflow: hidden;
+  padding-top: 10px;
+  padding-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  /*position: relative;*/
+}
+
+.portfolio {
+  width: 45%;
+  float:left;
+  padding-right: 60px;
+  padding-left: 110px;
+  margin-right: 60px;
+  padding-top: 80px;
+}
+/*#my-projects{
+  display: inline-block;
+}*/
+
+.portfolio-container {
+  overflow-x: hidden;
+}
+.portfolio-image{
+  height: 150px;
+  width: 200px;
+  margin-left: 100px;
+}
+.project-image {
+  height: 130px;
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 15px;
+}
+
+/*.project-container {
+  position: absolute;
+  display: inline-block;
+}
+.portfolios{
+ position: absolute;
+ bottom:0px;
+}*/
+.copyright{
+  color: white;
+}
+footer li {
+  background-color: black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+footer a {
+  color: white;
+}
+
+footer p {
+  position: absolute;
+  right: 80px;
+  bottom: 15px;
+  display: inline-block;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  /*height: 100px;*/
+  bottom: 0px;
+  /*top: 0px;*/
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  background-color: #0099cc;
+}
+
+@media (min-width: 790px) { /* Past the tablet setting */
+
+}
+
+@media (min-width: 321px) { /* past mobile, but before dekstop settings */
+
+}
+
+@media (max-width: 320px) { /* mobile settings */
+}

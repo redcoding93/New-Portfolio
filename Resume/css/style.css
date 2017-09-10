@@ -1,0 +1,149 @@
+* {
+  border: 1px /*solid red*/;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.myresume{
+  background-color: #0080ff;
+}
+ .nav-bar {
+  background-color: black;
+  position: absolute;
+  margin-top: 0px;
+  width: 100%;
+}
+.nav-bar a {
+  color: white;
+}
+#header ul {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+}
+#header li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my-logo {
+  height: 60px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.copyright{
+  color: white;
+}
+.higher-ed {
+  height: 130px;
+  margin-left: 160px;
+  margin-bottom: 30px;
+  margin-right: 5px;
+  display: block;
+}
+.job-img {
+  height: 70px;
+  padding-bottom: 0px;
+}
+.college {
+  padding-bottom: 10px;
+  margin-bottom: 3px;
+}
+.degree {
+  margin-left: 30px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.job, .year,.describe {
+  background-color: white;
+}
+.resume {
+  width: 30%;
+  height: 550px;
+  margin-top: 80px;
+  display: inline-block;
+  margin-left: 30px;
+  /*background-color: white;*/
+  /*width: 45%;
+  height: 60px;
+  float: left;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-top: 50px;*/
+}
+.job {
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  margin-left: -100px;
+  margin-top: 25px;
+  height: 100px;
+  display: block;
+
+}
+.skills {
+  margin-bottom: 50px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+.skill-type {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.dot {
+  position: relative;
+  width: 4%;
+  height: 15px;
+  margin-left: 2%;
+  background-color: white;
+  border-radius: 50%;
+  float:left;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #63dcf2;
+}
+
+footer li {
+  background-color: black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  position: absolute;
+  right: 80px;
+  bottom: 15px;
+  display: inline-block;
+}
+
+footer {
+  position: absolute;
+  background-color: black;
+  /*height: 100px;*/
+  bottom: 0px;
+  /*top: 0px;*/
+  width: 100%;
+}
+
+@media (min-width: 790px) { /* Past the tablet setting */
+
+}
+
+@media (min-width: 321px) { /* past mobile, but before dekstop settings */
+
+}
+
+@media (max-width: 320px) { /* mobile settings */

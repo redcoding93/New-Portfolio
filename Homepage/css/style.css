@@ -1,0 +1,258 @@
+
+* {
+  border: 1px /*solid red*/;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.topnav {
+  color: white;
+  background-color: black;
+  height: 52px;
+}
+
+.name {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.me {
+  height: 25%;
+  width: 50%;
+  border-radius: 75%;
+  margin-left: 25%;
+  margin-top: 25%;
+}
+
+a {
+  color: white;
+  font: helvetica;
+  text-decoration: none;
+  /*margin: 20px 0px 20px 15px;*/
+  /*text-align: right;*/
+  /*padding-left: 100px;
+  padding-right: 10px;*/
+}
+
+.home {
+    background-color: #0080ff;/*#99ccff;*/
+}
+
+
+.copyright {
+  margin: -50px 10px 15px 10px;
+  padding-top: 30px;
+  text-align: right;
+}
+.sidebar {
+  height: 723px;
+  background-color: #63dcf2; /*#00b8e6;*/
+  /*margin: 0px auto;*/
+  width: 253px;
+  display: inline-block;
+  vertical-align: top;
+  /*margin: auto 0px;*/
+  /*position: relative;*/
+}
+/* Remember - margin:10px 5px 15px 20px;
+top margin is 10px
+right margin is 5px
+bottom margin is 15px
+left margin is 20px */
+
+.sidebar a {
+  /*margin: -5px 40px 20px 20px;*/
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.sidebar p {
+  font-size: 14px;
+  /*margin: 15px 85px 70px 80px;*/
+  text-align: center;
+  margin-bottom: 15px;
+  /*padding: 20px;*/
+  /*padding-left: 20px;
+  margin-left: 50px;*/
+}
+.sidebar ul {
+  text-align: center;
+  color: white;
+  /*margin-right: 400px;*/
+}
+.bio {
+background-color: white;
+text-align: center;
+/*overflow: hidden;*/
+width: 82.38%;
+height: 80%;
+/*top: 52px;*/
+/*margin-right: 5%;*/
+vertical-align: top;
+/*margin-left: 50%;*/
+/*left: 260px;*/
+top: 52px;
+/*bottom: 70px;
+right: 0px;*/
+display: inline-block;
+position: absolute;
+padding-top: 60px;
+padding-left: 5px;
+padding-right: 85px;
+/*padding-bottom: 25px;*/
+}
+.bio p {
+  margin-left: 40px;
+}
+footer {
+color: white;
+background-color: black;
+height: 80px;
+/*position: absolute;
+left: 0;
+right: 0;*/
+
+}
+.footer li {
+display: inline-block;
+color: white;
+margin-right: 20px;
+margin-left: 10px;
+margin-top: 30px;
+}
+#facebook{
+  color: white;
+}
+body {
+  background-color: white; /*#63dcf2*/
+}
+h1 {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 70px;
+  padding-top: 15px;
+  color: white;
+  /*padding-bottom: -10px;*/
+}
+p {
+  font-size: 12px;
+  text-align: left;
+  padding-top: 15px;
+}
+#mytopnav ul {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+#mytopnav li {
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-top: 15px;
+  /*margin-right: 20px;*/
+}
+/*#mytopnav {
+  padding-bottom: 5px;
+}*/
+/*.topnav a {
+  margin: -15px 10px 10px 10px;
+}*/
+/*.topnav li {
+display: inline-block;
+margin-left: 50px;
+padding-left: 50px;
+right: 0;
+top: 0;
+}*/
+
+@media (min-width: 790px) { /* Past the tablet setting */
+
+};
+
+@media (min-width: 321px) { /* past mobile, but before dekstop settings */
+
+.bio, .sidebar {
+  display: inline-block;
+}
+
+};
+
+@media (max-width: 320px) { /* mobile settings */
+
+         .topnav, .topnav h1{
+           width: 100%;
+           /*color: green;*/
+
+         }
+         .topnav li {
+           display: inline-block;
+           font-size: 0.8em;
+
+         }
+         .topnav ul{
+           margin: 0 auto;
+           width: 60%;
+         }
+         .topnav{
+           height: 80;
+
+         }
+         .topnav h1 {
+           text-align: center;
+           padding: 0;
+         }
+         .sidebar {
+           height: 100px;
+           display: block;
+           width: 100%;
+         }
+         .bio {
+           height: 100%;
+           width: 100%;
+           display: block;
+           position: relative;
+           bottom: auto;
+           left: auto;
+         }
+         footer {
+           width: 100%;
+         }
+         footer li {
+           width: 50px;
+           display: inline-block;
+         };
+
+
+  /*body {
+          background: white;
+
+          .sidebar {
+            display: block;
+            padding: 10px;
+          }
+
+          h1 {
+            font-size: 36;
+          }
+          li {
+            display: block;
+            padding: 5px;
+          }
+          .bio {
+            max-width: 320px;
+
+
+      }
+   }*/
+
+}
